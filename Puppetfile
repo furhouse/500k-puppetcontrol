@@ -38,6 +38,10 @@ mod 'luxflux/openvpn', '3.0.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'adamcrews/nessus', '0.3.2'
 mod 'bashtoni/timezone', '1.0.0'
+mod 'puppetlabs/java', '1.5.0'
+mod 'puppetlabs/mongodb', '0.13.0'
+mod 'elasticsearch/elasticsearch', '0.10.3'
+mod 'graylog/graylog', '0.1.0'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
