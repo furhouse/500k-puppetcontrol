@@ -44,6 +44,7 @@ mod 'bashtoni/timezone', '1.0.0'
 mod 'elasticsearch/elasticsearch', '0.10.3'
 mod 'graylog/graylog', '0.1.0'
 mod 'richardc/datacat', '0.6.2'
+mod 'voxpupuli/puppet-archive', '0.5.1'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
