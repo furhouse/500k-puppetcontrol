@@ -66,6 +66,9 @@ mod 'ssh',
 mod 'locales',
   :git => 'https://github.com/saz/puppet-locales.git'
 
+mod 'vim',
+  :git => 'https://github.com/saz/puppet-vim.git'
+
 mod 'backuppc',
   :git => 'https://github.com/furhouse/puppet-backuppc',
   :ref => 'wyrie/backuppc'
