@@ -64,7 +64,7 @@ mod 'ssh',
   :ref => '404525671d3db9aeeccd8b339f70d4dcd66e58ed'
 
 mod 'locales',
-  :git => 'git://github.com/saz/puppet-locales.git'
+  :git => 'https://github.com/saz/puppet-locales.git'
 
 mod 'backuppc',
   :git => 'https://github.com/furhouse/puppet-backuppc',
