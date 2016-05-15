@@ -24,7 +24,6 @@ mod 'adrien/alternatives', '0.3.0'
 mod 'inkblot/bind', '5.1.2'
 mod 'ripienaar/module_data', '0.5.1'
 mod 'zack/r10k', '3.2.0'
-mod 'saz/locales'
 mod 'saz/sudo', '3.1.0'
 mod 'saz/rsyslog', '3.5.1'
 mod 'ajjahn/samba', '0.4.0'
@@ -63,6 +62,9 @@ mod 'libvirt',
 mod 'ssh',
   :git => 'git://github.com/saz/puppet-ssh.git',
   :ref => '404525671d3db9aeeccd8b339f70d4dcd66e58ed'
+
+mod 'locales',
+  :git => 'git://github.com/saz/puppet-locales.git'
 
 mod 'backuppc',
   :git => 'https://github.com/furhouse/puppet-backuppc',
