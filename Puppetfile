@@ -44,7 +44,6 @@ mod 'elasticsearch/elasticsearch', '0.10.3'
 mod 'graylog/graylog', '0.1.0'
 mod 'richardc/datacat', '0.6.2'
 mod 'puppet/archive', '0.5.1'
-mod 'puppet/zabbix', '2.3.1'
 mod 'puppet/extlib', '0.11.0'
 mod 'huit/ipa', '1.5.5'
 
@@ -61,6 +60,9 @@ mod 'packages',
 mod 'libvirt',
   :git => 'https://github.com/furhouse/puppet-libvirt.git',
   :ref => 'develop'
+mod 'zabbix',
+  :git => 'https://github.com/furhouse/puppet-zabbix.git',
+  :ref => 'default_vhost_main_class'
 
 mod 'ssh',
   :git => 'git://github.com/saz/puppet-ssh.git',
