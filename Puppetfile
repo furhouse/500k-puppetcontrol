@@ -46,6 +46,7 @@ mod 'richardc/datacat', '0.6.2'
 mod 'puppet/archive', '0.5.1'
 mod 'puppet/extlib', '0.11.0'
 mod 'huit/ipa', '1.5.5'
+mod 'lvicainne/opendkim', '0.0.3'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
