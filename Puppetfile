@@ -77,7 +77,7 @@ mod 'vim',
 
 mod 'backuppc',
   :git => 'https://github.com/furhouse/puppet-backuppc',
-  :ref => 'wyrie/backuppc'
+  :ref => 'feature/archlinux_client'
 
 mod 'docker',
   :git => 'https://github.com/furhouse/garethr-docker'
