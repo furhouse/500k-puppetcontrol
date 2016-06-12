@@ -82,6 +82,9 @@ mod 'backuppc',
 mod 'docker',
   :git => 'https://github.com/furhouse/garethr-docker'
 
+mod 'dovecot',
+  :git => 'https://github.com/hdeadman/dovecot.git'
+
 mod 'puppetdbquery',
   :git => 'https://github.com/dalen/puppet-puppetdbquery.git',
   :tag => '1.6.1'
