@@ -47,6 +47,7 @@ mod 'puppet/archive', '0.5.1'
 mod 'puppet/extlib', '0.11.0'
 mod 'huit/ipa', '1.5.5'
 mod 'bi4o4ek/opendkim', '0.0.7'
+mod 'lelutin/asterisk', '1.0.2'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
