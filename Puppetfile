@@ -48,6 +48,7 @@ mod 'puppet/extlib', '0.11.0'
 mod 'huit/ipa', '1.5.5'
 mod 'bi4o4ek/opendkim', '0.0.7'
 mod 'LeLutin/asterisk', '1.0.2'
+mod 'rnelson0/hiera_resources', '1.0.1'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
