@@ -50,6 +50,7 @@ mod 'bi4o4ek/opendkim', '0.0.7'
 mod 'LeLutin/asterisk', '1.0.2'
 mod 'rnelson0/hiera_resources', '1.0.1'
 mod 'torrancew/cron', '0.2.1'
+mod 'lvicainne/bashrc', '0.0.2'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
