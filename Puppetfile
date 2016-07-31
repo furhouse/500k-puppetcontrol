@@ -51,6 +51,8 @@ mod 'LeLutin/asterisk', '1.0.2'
 mod 'rnelson0/hiera_resources', '1.0.1'
 mod 'torrancew/cron', '0.2.1'
 mod 'lvicainne/bashrc', '0.0.2'
+mod 'herculesteam/augeasproviders_core', '2.1.2'
+mod 'herculesteam/augeasproviders_shellvar', '2.2.1'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
