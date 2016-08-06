@@ -1,5 +1,6 @@
-node default { 
+node default {
   hiera_include('classes')
+  hiera_resources('hiera_create_types')
 }
 
 node /^chief\.500k\.lan$/ {
