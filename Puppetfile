@@ -89,7 +89,7 @@ mod 'docker',
   :git => 'https://github.com/furhouse/garethr-docker'
 
 mod 'dovecot',
-  :git => 'https://github.com/hdeadman/dovecot.git'
+  :git => 'https://github.com/furhouse/dovecot.git'
 
 mod 'puppetdbquery',
   :git => 'https://github.com/dalen/puppet-puppetdbquery.git',
