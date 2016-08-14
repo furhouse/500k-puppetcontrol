@@ -52,6 +52,9 @@ mod 'torrancew/cron', '0.2.1'
 mod 'herculesteam/augeasproviders_core', '2.1.2'
 mod 'herculesteam/augeasproviders_shellvar', '2.2.1'
 mod 'yo61/logrotate', '1.4.0'
+mod 'tohuwabohu/roundcube', '2.2.0'
+mod 'camptocamp/archive', '0.8.1'
+mod 'willdurand/composer', '1.2.1'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
