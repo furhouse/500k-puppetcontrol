@@ -34,7 +34,6 @@ mod 'CERNOps/motd', '2.0.0'
 mod 'nvogel/ansible', '3.0.0'
 mod 'camptocamp/postfix', '1.2.13'
 mod 'camptocamp/augeas', '1.4.2'
-mod 'danzilio/letsencrypt', '1.0.0'
 mod 'jfryman/nginx', '0.3.0'
 mod 'luxflux/openvpn', '3.0.0'
 mod 'nanliu/staging', '1.0.3'
@@ -94,3 +93,6 @@ mod 'dovecot',
 mod 'puppetdbquery',
   :git => 'https://github.com/dalen/puppet-puppetdbquery.git',
   :tag => '1.6.1'
+
+mod 'dovecot',
+  :git => 'https://github.com/danzilio/letsencrypt.git'
