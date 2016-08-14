@@ -94,5 +94,5 @@ mod 'puppetdbquery',
   :git => 'https://github.com/dalen/puppet-puppetdbquery.git',
   :tag => '1.6.1'
 
-mod 'dovecot',
-  :git => 'https://github.com/danzilio/letsencrypt.git'
+mod 'letsencrypt',
+  :git => 'https://github.com/danzilio/puppet-letsencrypt.git'
