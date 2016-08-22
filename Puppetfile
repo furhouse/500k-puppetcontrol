@@ -54,6 +54,7 @@ mod 'yo61/logrotate', '1.4.0'
 mod 'tohuwabohu/roundcube', '2.2.0'
 mod 'camptocamp/archive', '0.8.1'
 mod 'willdurand/composer', '1.2.1'
+mod 'LeLutin/fail2ban', '1.2.1'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
@@ -98,3 +99,6 @@ mod 'puppetdbquery',
 
 mod 'letsencrypt',
   :git => 'https://github.com/danzilio/puppet-letsencrypt.git'
+
+mod 'znc',
+  :git => 'https://github.com/jfryman/puppet-znc'
