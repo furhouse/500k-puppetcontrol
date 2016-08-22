@@ -101,4 +101,4 @@ mod 'letsencrypt',
   :git => 'https://github.com/danzilio/puppet-letsencrypt.git'
 
 mod 'znc',
-  :git => 'https://github.com/jfryman/puppet-znc'
+  :git => 'https://github.com/furhouse/puppet-znc'
