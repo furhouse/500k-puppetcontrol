@@ -1,25 +1,27 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'puppetlabs/stdlib', '4.11.0'
-mod 'puppetlabs/concat', '2.1.0'
-mod 'puppetlabs/ntp', '4.1.2'
+mod 'puppetlabs/stdlib', '4.12.0'
+mod 'puppetlabs/concat', '2.2.0'
+mod 'puppetlabs/ntp', '4.2.0'
 mod 'puppetlabs/apt', '2.2.2'
 mod 'puppetlabs/vcsrepo', '1.3.2'
-mod 'puppetlabs/xinetd', '1.5.0'
-mod 'puppetlabs/apache', '1.8.1'
+mod 'puppetlabs/xinetd', '2.0.0'
+mod 'puppetlabs/apache', '1.10.0'
 mod 'puppetlabs/puppetdb', '5.1.1'
-mod 'puppetlabs/inifile', '1.4.3'
-mod 'puppetlabs/firewall', '1.8.0'
-mod 'puppetlabs/postgresql', '4.7.1'
-mod 'puppetlabs/mysql', '3.6.2'
-mod 'puppetlabs/java', '1.5.0'
-mod 'puppetlabs/mongodb', '0.13.0'
-mod 'puppetlabs/ruby', '0.4.0'
+mod 'puppetlabs/inifile', '1.5.0'
+mod 'puppetlabs/firewall', '1.8.1'
+mod 'puppetlabs/postgresql', '4.8.0'
+mod 'puppetlabs/mysql', '3.8.0'
+mod 'puppetlabs/java', '1.6.0'
+mod 'puppetlabs/mongodb', '0.14.0'
+mod 'puppetlabs/ruby', '0.5.0'
+
 mod 'theforeman/puppet', '4.3.0'
 mod 'theforeman/foreman', '5.1.0'
 mod 'theforeman/foreman_proxy', '2.5.0'
 mod 'theforeman/dhcp', '2.3.0'
 mod 'theforeman/tftp', '1.7.0'
+
 mod 'adrien/alternatives', '0.3.0'
 mod 'inkblot/bind', '5.1.2'
 mod 'ripienaar/module_data', '0.5.1'
@@ -98,7 +100,8 @@ mod 'puppetdbquery',
   :tag => '1.6.1'
 
 mod 'letsencrypt',
-  :git => 'https://github.com/danzilio/puppet-letsencrypt.git'
+  :git => 'https://github.com/danzilio/puppet-letsencrypt.git',
+  :ref => 'certbot'
 
 mod 'znc',
   :git => 'https://github.com/furhouse/puppet-znc'
