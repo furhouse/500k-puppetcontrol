@@ -101,7 +101,7 @@ mod 'puppetdbquery',
 
 mod 'letsencrypt',
   :git => 'https://github.com/danzilio/puppet-letsencrypt.git',
-  :ref => 'letsencrypt'
+  :ref => 'master'
 
 mod 'certbot',
   :git => 'https://github.com/danzilio/puppet-letsencrypt.git',
