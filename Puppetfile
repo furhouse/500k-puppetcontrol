@@ -99,6 +99,10 @@ mod 'puppetdbquery',
   :git => 'https://github.com/dalen/puppet-puppetdbquery.git',
   :tag => '1.6.1'
 
+mod 'letsencrypt',
+  :git => 'https://github.com/danzilio/puppet-letsencrypt.git',
+  :ref => 'letsencrypt'
+
 mod 'certbot',
   :git => 'https://github.com/danzilio/puppet-letsencrypt.git',
   :ref => 'certbot'
