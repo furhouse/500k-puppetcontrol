@@ -28,7 +28,7 @@ mod 'ripienaar/module_data', '0.5.1'
 mod 'zack/r10k', '3.2.0'
 mod 'saz/sudo', '3.1.0'
 mod 'saz/rsyslog', '3.5.1'
-mod 'ajjahn/samba', '0.4.0'
+mod 'ajjahn/samba', '0.5.0'
 mod 'echocat/nfs', '1.8.0'
 # mod 'garethr/docker', '5.1.0'
 mod 'ajcrowe/supervisord', '0.6.0'
@@ -109,3 +109,7 @@ mod 'certbot',
 
 mod 'znc',
   :git => 'https://github.com/furhouse/puppet-znc'
+
+mod 'cups',
+  :git => 'https://github.com/furhouse/puppet-cups',
+  :ref => 'puppet3'
