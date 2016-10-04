@@ -15,6 +15,7 @@ mod 'puppetlabs/mysql', '3.8.0'
 mod 'puppetlabs/java', '1.6.0'
 mod 'puppetlabs/mongodb', '0.14.0'
 mod 'puppetlabs/ruby', '0.5.0'
+mod 'puppetlabs/git', '0.5.0'
 
 mod 'theforeman/puppet', '4.3.0'
 mod 'theforeman/foreman', '5.1.0'
