@@ -55,7 +55,7 @@ mod 'torrancew/cron', '0.2.1'
 mod 'herculesteam/augeasproviders_core', '2.1.2'
 mod 'herculesteam/augeasproviders_shellvar', '2.2.1'
 mod 'yo61/logrotate', '1.4.0'
-mod 'tohuwabohu/roundcube', '3.0.0'
+#mod 'tohuwabohu/roundcube', '3.0.0'
 mod 'camptocamp/archive', '0.8.1'
 mod 'willdurand/composer', '1.2.1'
 mod 'LeLutin/fail2ban', '1.2.1'
@@ -89,7 +89,7 @@ mod 'vim',
 
 mod 'backuppc',
   :git => 'https://github.com/furhouse/puppet-backuppc',
-  :ref => 'feature/archlinux_client'
+  :ref => 'feature/ping_max_msec'
 
 mod 'docker',
   :git => 'https://github.com/furhouse/garethr-docker'
@@ -115,3 +115,7 @@ mod 'znc',
 mod 'cups',
   :git => 'https://github.com/furhouse/puppet-cups',
   :ref => 'puppet3'
+
+mod 'roundcube',
+  :git => 'https://github.com/furhouse/puppet-roundcube',
+  :ref => 'package_dir'
