@@ -3,9 +3,21 @@ node default {
   hiera_resources('hiera_create_types')
 }
 
-node /^chief\.500k\.lan$/ {
+node /^*\.500k\.lan$/ {
   class { 'backuppc::client':
-    rsync_share_name => ['/'],
-    backup_files_exclude => [ 'home', 'opt/kvm', 'proc', 'dev', 'sys' ],
+    backuppc_hostname    => 'backuppc.500k.lan',
+    rsync_share_name     => ['/'],
+    backup_files_exclude => {
+      '/'=>
+        ['/home',
+        '/proc',
+        '/sys',
+        '/run',
+        '/mnt',
+        '/opt',
+        '/export',
+        '/data',
+        ]
+    },
   }
 }
