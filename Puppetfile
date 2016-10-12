@@ -61,6 +61,7 @@ mod 'willdurand/composer', '1.2.1'
 mod 'LeLutin/fail2ban', '1.2.1'
 mod 'jgazeley/lm_sensors', '0.2.2'
 mod 'jhoblitt/ipmi', '2.3.0'
+mod 'edestecd/clamav', '1.0.0'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
