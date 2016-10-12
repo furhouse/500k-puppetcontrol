@@ -59,6 +59,8 @@ mod 'yo61/logrotate', '1.4.0'
 mod 'camptocamp/archive', '0.8.1'
 mod 'willdurand/composer', '1.2.1'
 mod 'LeLutin/fail2ban', '1.2.1'
+mod 'jgazeley-lm_sensors', '0.2.2'
+mod 'jhoblitt-ipmi', '2.3.0'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
@@ -119,3 +121,6 @@ mod 'cups',
 mod 'roundcube',
   :git => 'https://github.com/furhouse/puppet-roundcube',
   :ref => 'package_dir'
+
+mod 'amavis',
+  :git => 'https://github.com/nerdlich/amavis.git'
