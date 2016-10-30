@@ -125,3 +125,6 @@ mod 'roundcube',
 
 mod 'amavis',
   :git => 'https://github.com/nerdlich/amavis.git'
+
+mod 'librenms',
+  :git => 'https://github.com/darktim/puppet-librenms.git'
