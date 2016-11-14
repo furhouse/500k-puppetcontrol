@@ -20,7 +20,7 @@ mod 'puppetlabs/git', '0.5.0'
 mod 'theforeman/puppet', '4.3.0'
 mod 'theforeman/foreman', '5.1.0'
 mod 'theforeman/foreman_proxy', '2.5.0'
-mod 'theforeman/dhcp', '2.3.0'
+mod 'theforeman/dhcp', '2.3.2'
 mod 'theforeman/tftp', '1.7.0'
 
 mod 'adrien/alternatives', '0.3.0'
