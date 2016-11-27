@@ -127,4 +127,5 @@ mod 'amavis',
   :git => 'https://github.com/nerdlich/amavis.git'
 
 mod 'librenms',
-  :git => 'https://github.com/darktim/puppet-librenms.git'
+  :git => 'https://github.com/furhouse/puppet-librenms.git',
+  :ref => 'refactor'
