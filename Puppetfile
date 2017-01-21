@@ -25,7 +25,6 @@ mod 'theforeman/tftp', '1.7.0'
 
 mod 'adrien/alternatives', '0.3.0'
 mod 'inkblot/bind', '5.1.2'
-mod 'ripienaar/module_data', '0.5.1'
 mod 'zack/r10k', '3.2.0'
 mod 'saz/sudo', '3.1.0'
 mod 'saz/rsyslog', '3.5.1'
